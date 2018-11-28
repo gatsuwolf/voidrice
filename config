@@ -1,3 +1,4 @@
+# belongs in ~/.config/ncmpcpp
 mpd_music_dir = "/home/anon/Music"
 
 visualizer_in_stereo = "yes"
