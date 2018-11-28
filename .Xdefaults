@@ -1,0 +1,76 @@
+! blaquebeard
+! special
+*.foreground:   #c2c2b0
+*.background:   #222222
+*.cursorColor:  #c2c2b0
+
+! black
+*.color0:       #222222
+*.color8:       #222222
+
+! red
+*.color1:       #924650
+*.color9:       #924650
+
+! green
+*.color2:       #40b04d
+*.color10:      #40b04d
+
+! yellow
+*.color3:       #ba9864
+*.color11:      #ba9864
+
+! blue
+*.color4:       #888888
+*.color12:      #888888
+
+! magenta
+*.color5:       #4f8396
+*.color13:      #4f8396
+
+! cyan
+*.color6:       #777777
+*.color14:      #777777
+
+! white
+*.color7:       #c2c2b0
+*.color15:      #c2c2b0
+URxvt.intensityStyles:	false
+URxvt.background:       [70]#000000
+URxvt.depth:		32
+URxvt.font: 		xft:terminus:size=14
+URxvt.scrollBar:	false
+URxvt.cursorColor:	white
+URxvt.transparent:      false
+URxvt.shading:		50
+URxvt.iconFile:    /usr/share/icons/Paper/32x32/apps/utilities-terminal.png
+
+
+!! Extensions
+URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
+URxvt.colorUL:		#4682B4
+!! url-select
+URxvt.keysym.M-u:	perl:url-select:select_next
+URxvt.url-select.launcher: linkhandler
+URxvt.url-select.underline: true
+!! keyboard-select:
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+!! resize-font
+URxvt.resize-font.smaller:	C-Down
+URxvt.resize-font.bigger:	C-Up
+!! Matcher
+URxvt.url-launcher:	linkhandler
+URxvt.matcher.button:	1
+
+rofi.color-enabled:	true
+rofi.color-window:	#000, #000, #000
+rofi.color-normal:	#111, #819396, #222, #008ed4, #ffffff
+rofi.color-active:	#002b37, #008ed4, #003643, #008ed4, #66c6ff
+rofi.color-urgent:	#002b37, #da4281, #003643, #008ed4, #890661
+
+rofi.fake-transparency:	true
+rofi.lines:		3
+rofi.bw:		0
+rofi.opacity:		"10"
+rofi.hide-scrollbar:	true
+rofi.width:		30
